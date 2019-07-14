@@ -14,7 +14,7 @@ namespace Web_Swagger.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Dato 1", "Dato 2" };
         }
 
         // GET api/values/5
